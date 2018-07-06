@@ -39,7 +39,7 @@ view model =
     Html.div
         []
         [ Html.h1 []
-            [ Html.input [ placeholder model, onInput Change ] [ text model ]
+            [ Html.textarea [ placeholder model, onInput Change ] [ text model ]
             ]
         ]
 
